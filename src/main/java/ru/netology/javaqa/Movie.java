@@ -1,7 +1,7 @@
 package ru.netology.javaqa;
 
 public class Movie {
-    private String name;
+    private final String name;
 
     public Movie(String name) {
         this.name = name;
@@ -10,5 +10,4 @@ public class Movie {
     public String getName() {
         return name;
     }
-
 }
